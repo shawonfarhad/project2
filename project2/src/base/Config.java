@@ -21,7 +21,7 @@ public class Config extends WDFunctions {
 	@BeforeMethod
 	public void beforeEachTestMethod(String browser){
 		if (browser.equalsIgnoreCase("ch")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
 			driver = new ChromeDriver(); 
 			System.out.println (" chrome driver open ++++++++++++++++ ");
 		} else if (browser.equalsIgnoreCase("ff")){
