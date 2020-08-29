@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Booking.com - Smoke Test Suite">
+
+	<test name="Running Smoke suite in Chrome">
+		<parameter name="browser" value="CH" />
+		<classes>
+			<class name="test_signIn.VerifyUserFullName" />
+			<class name="test_register.NewRegisterTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- RegressionSuite -->
+

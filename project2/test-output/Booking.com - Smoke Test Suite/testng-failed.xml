@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Booking.com - Smoke Test Suite]">
+  <parameter name="browser" value="CH"/>
+  <test name="Running Smoke suite in Chrome(failed)">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="test_register.NewRegisterTest">
+        <methods>
+          <include name="registerWithNewEmailTest"/>
+        </methods>
+      </class> <!-- test_register.NewRegisterTest -->
+      <class name="test_signIn.VerifyUserFullName">
+        <methods>
+          <include name="beforeEachTestMethod"/>
+          <include name="startTestSuite"/>
+          <include name="userFullNameTest"/>
+        </methods>
+      </class> <!-- test_signIn.VerifyUserFullName -->
+    </classes>
+  </test> <!-- Running Smoke suite in Chrome(failed) -->
+</suite> <!-- Failed suite [Booking.com - Smoke Test Suite] -->
