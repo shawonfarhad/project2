@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Booking.com - Smoke Test Suite" duration-ms="30302" started-at="2020-08-29T05:56:47Z" finished-at="2020-08-29T05:57:17Z">
+    <groups>
+    </groups>
+    <test name="Running Smoke suite in Chrome" duration-ms="30302" started-at="2020-08-29T05:56:47Z" finished-at="2020-08-29T05:57:17Z">
+      <class name="test_register.NewRegisterTest">
+        <test-method status="PASS" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:test_register.NewRegisterTest@51081592]" name="beforeEachTestMethod" is-config="true" duration-ms="8421" started-at="2020-08-29T01:57:04Z" finished-at="2020-08-29T01:57:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestMethod -->
+        <test-method status="PASS" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@51081592]" name="registerWithNewEmailTest" duration-ms="5" started-at="2020-08-29T01:57:13Z" finished-at="2020-08-29T01:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithNewEmailTest -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@51081592]" name="afterEachTestMethod" is-config="true" duration-ms="4137" started-at="2020-08-29T01:57:13Z" finished-at="2020-08-29T01:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+      </class> <!-- test_register.NewRegisterTest -->
+      <class name="test_signIn.VerifyUserFullName">
+        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="startTestSuite" is-config="true" duration-ms="62" started-at="2020-08-29T01:56:47Z" finished-at="2020-08-29T01:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestSuite -->
+        <test-method status="PASS" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="beforeEachTestMethod" is-config="true" duration-ms="9388" started-at="2020-08-29T01:56:47Z" finished-at="2020-08-29T01:56:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestMethod -->
+        <test-method status="PASS" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="userFullNameTest" duration-ms="7596" started-at="2020-08-29T01:56:56Z" finished-at="2020-08-29T01:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFullNameTest -->
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="afterEachTestMethod" is-config="true" duration-ms="709" started-at="2020-08-29T01:57:04Z" finished-at="2020-08-29T01:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-29T01:57:17Z" finished-at="2020-08-29T01:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_signIn.VerifyUserFullName -->
+    </test> <!-- Running Smoke suite in Chrome -->
+  </suite> <!-- Booking.com - Smoke Test Suite -->
+</testng-results>
