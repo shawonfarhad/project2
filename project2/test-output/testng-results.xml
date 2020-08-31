@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Booking.com - Smoke Test Suite" duration-ms="28110" started-at="2020-08-30T22:27:42Z" finished-at="2020-08-30T22:28:10Z">
+  <suite name="Booking.com - Smoke Test Suite" duration-ms="27843" started-at="2020-08-31T01:16:22Z" finished-at="2020-08-31T01:16:49Z">
     <groups>
     </groups>
-    <test name="Running Smoke suite in Chrome" duration-ms="28110" started-at="2020-08-30T22:27:42Z" finished-at="2020-08-30T22:28:10Z">
+    <test name="Running Smoke suite in Chrome" duration-ms="27843" started-at="2020-08-31T01:16:22Z" finished-at="2020-08-31T01:16:49Z">
       <class name="test_register.NewRegisterTest">
-        <test-method status="PASS" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:test_register.NewRegisterTest@51081592]" name="beforeEachTestMethod" is-config="true" duration-ms="7506" started-at="2020-08-30T18:28:02Z" finished-at="2020-08-30T18:28:10Z">
+        <test-method status="PASS" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:test_register.NewRegisterTest@51081592]" name="beforeEachTestMethod" is-config="true" duration-ms="7883" started-at="2020-08-30T21:16:41Z" finished-at="2020-08-30T21:16:49Z">
           <params>
             <param index="0">
               <value>
@@ -18,21 +18,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestMethod -->
-        <test-method status="PASS" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@51081592]" name="registerWithNewEmailTest" duration-ms="1" started-at="2020-08-30T18:28:10Z" finished-at="2020-08-30T18:28:10Z">
+        <test-method status="PASS" signature="registerWithNewEmailTest()[pri:0, instance:test_register.NewRegisterTest@51081592]" name="registerWithNewEmailTest" duration-ms="2" started-at="2020-08-30T21:16:49Z" finished-at="2020-08-30T21:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithNewEmailTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@51081592]" name="afterEachTestMethod" is-config="true" duration-ms="61" started-at="2020-08-30T18:28:10Z" finished-at="2020-08-30T18:28:10Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_register.NewRegisterTest@51081592]" name="afterEachTestMethod" is-config="true" duration-ms="174" started-at="2020-08-30T21:16:49Z" finished-at="2020-08-30T21:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- test_register.NewRegisterTest -->
       <class name="test_signIn.VerifyUserFullName">
-        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="startTestSuite" is-config="true" duration-ms="29" started-at="2020-08-30T18:27:42Z" finished-at="2020-08-30T18:27:42Z">
+        <test-method status="PASS" signature="startTestSuite()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="startTestSuite" is-config="true" duration-ms="60" started-at="2020-08-30T21:16:22Z" finished-at="2020-08-30T21:16:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestSuite -->
-        <test-method status="PASS" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="beforeEachTestMethod" is-config="true" duration-ms="9686" started-at="2020-08-30T18:27:42Z" finished-at="2020-08-30T18:27:51Z">
+        <test-method status="PASS" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="beforeEachTestMethod" is-config="true" duration-ms="12353" started-at="2020-08-30T21:16:22Z" finished-at="2020-08-30T21:16:34Z">
           <params>
             <param index="0">
               <value>
@@ -43,15 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestMethod -->
-        <test-method status="PASS" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="userFullNameTest" duration-ms="6638" started-at="2020-08-30T18:27:51Z" finished-at="2020-08-30T18:27:58Z">
+        <test-method status="PASS" signature="userFullNameTest()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="userFullNameTest" duration-ms="7180" started-at="2020-08-30T21:16:34Z" finished-at="2020-08-30T21:16:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userFullNameTest -->
-        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="afterEachTestMethod" is-config="true" duration-ms="4200" started-at="2020-08-30T18:27:58Z" finished-at="2020-08-30T18:28:02Z">
+        <test-method status="PASS" signature="afterEachTestMethod()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="afterEachTestMethod" is-config="true" duration-ms="210" started-at="2020-08-30T21:16:41Z" finished-at="2020-08-30T21:16:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-30T18:28:10Z" finished-at="2020-08-30T18:28:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_signIn.VerifyUserFullName@396a51ab]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-30T21:16:49Z" finished-at="2020-08-30T21:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
